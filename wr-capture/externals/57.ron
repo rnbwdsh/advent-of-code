@@ -1,0 +1,12 @@
+(
+    data: "externals/d57.raw",
+    external: (
+        id: (8589934638),
+        channel_index: 0,
+        image_type: Buffer,
+    ),
+    uv: (
+        uv0: (0, 0),
+        uv1: (0, 0),
+    ),
+)

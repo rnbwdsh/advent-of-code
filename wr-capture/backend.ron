@@ -1,0 +1,1764 @@
+(
+    default_device_pixel_ratio: 1,
+    frame_config: (
+        default_font_render_mode: Subpixel,
+        dual_source_blending_is_supported: true,
+        dual_source_blending_is_enabled: true,
+        chase_primitive: Nothing,
+        global_enable_picture_caching: true,
+        testing: false,
+        gpu_supports_fast_clears: false,
+        gpu_supports_advanced_blend: false,
+        advanced_blend_is_coherent: true,
+        batch_lookback_count: 10,
+        background_color: Some((
+            r: 0,
+            g: 0,
+            b: 0,
+            a: 0,
+        )),
+        compositor_kind: Draw(
+            max_partial_present_rects: 0,
+        ),
+    ),
+    documents: {
+        (
+            namespace_id: (1),
+            id: 0,
+        ): (
+            device_rect: (
+                origin: (0, 0),
+                size: (1920, 1050),
+            ),
+            layer: 0,
+            pan: (0, 0),
+            device_pixel_ratio: 1,
+            page_zoom_factor: 1,
+            pinch_zoom_factor: 1,
+        ),
+    },
+    resources: (
+        font_templates: {
+            ((5), 2): (
+                data: "/usr/share/fonts/gsfonts/NimbusSans-Regular.otf",
+                index: 0,
+            ),
+            ((5), 18): (
+                data: "/usr/share/fonts/TTF/VeraMono.ttf",
+                index: 0,
+            ),
+            ((6), 11): (
+                data: "/usr/share/fonts/cantarell/Cantarell-Regular.otf",
+                index: 0,
+            ),
+            ((5), 12): (
+                data: "fonts/11.raw",
+                index: 0,
+            ),
+            ((1), 4): (
+                data: "/usr/share/fonts/cantarell/Cantarell-Regular.otf",
+                index: 0,
+            ),
+            ((6), 5): (
+                data: "/usr/share/fonts/TTF/VeraBd.ttf",
+                index: 0,
+            ),
+            ((5), 23): (
+                data: "/usr/share/fonts/TTF/VeraMoIt.ttf",
+                index: 0,
+            ),
+            ((6), 2): (
+                data: "/usr/share/fonts/TTF/Vera.ttf",
+                index: 0,
+            ),
+            ((5), 228): (
+                data: "/usr/share/fonts/gsfonts/NimbusSans-Bold.otf",
+                index: 0,
+            ),
+            ((5), 20): (
+                data: "/usr/share/fonts/TTF/VeraMoBd.ttf",
+                index: 0,
+            ),
+        },
+        font_instances: {
+            ((6), 29): (
+                instance_key: ((6), 29),
+                font_key: ((6), 2),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 5): (
+                instance_key: ((5), 5),
+                font_key: ((5), 2),
+                size: 780,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 3): (
+                instance_key: ((5), 3),
+                font_key: ((5), 2),
+                size: 720,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 25): (
+                instance_key: ((5), 25),
+                font_key: ((5), 2),
+                size: 1143,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 7): (
+                instance_key: ((5), 7),
+                font_key: ((5), 2),
+                size: 718,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((1), 88): (
+                instance_key: ((1), 88),
+                font_key: ((1), 4),
+                size: 912,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((1), 5): (
+                instance_key: ((1), 5),
+                font_key: ((1), 4),
+                size: 800,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 155): (
+                instance_key: ((5), 155),
+                font_key: ((5), 20),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 229): (
+                instance_key: ((5), 229),
+                font_key: ((5), 228),
+                size: 1170,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 12): (
+                instance_key: ((6), 12),
+                font_key: ((6), 11),
+                size: 800,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 227): (
+                instance_key: ((5), 227),
+                font_key: ((5), 2),
+                size: 1020,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 22): (
+                instance_key: ((6), 22),
+                font_key: ((6), 5),
+                size: 720,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 21): (
+                instance_key: ((6), 21),
+                font_key: ((6), 2),
+                size: 600,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 13): (
+                instance_key: ((5), 13),
+                font_key: ((5), 12),
+                size: 780,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 11): (
+                instance_key: ((5), 11),
+                font_key: ((5), 2),
+                size: 624,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 4): (
+                instance_key: ((5), 4),
+                font_key: ((5), 2),
+                size: 600,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((1), 89): (
+                instance_key: ((1), 89),
+                font_key: ((1), 4),
+                size: 600,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 24): (
+                instance_key: ((5), 24),
+                font_key: ((5), 23),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 21): (
+                instance_key: ((5), 21),
+                font_key: ((5), 20),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 22): (
+                instance_key: ((5), 22),
+                font_key: ((5), 18),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((5), 19): (
+                instance_key: ((5), 19),
+                font_key: ((5), 18),
+                size: 840,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 3): (
+                instance_key: ((6), 3),
+                font_key: ((6), 2),
+                size: 900,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 6): (
+                instance_key: ((6), 6),
+                font_key: ((6), 5),
+                size: 780,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 8): (
+                instance_key: ((6), 8),
+                font_key: ((6), 2),
+                size: 1920,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+            ((6), 18): (
+                instance_key: ((6), 18),
+                font_key: ((6), 2),
+                size: 1200,
+                bg_color: (
+                    r: 0,
+                    g: 0,
+                    b: 0,
+                    a: 0,
+                ),
+                render_mode: Subpixel,
+                flags: (
+                    bits: 128,
+                ),
+                synthetic_italics: (
+                    angle: 0,
+                ),
+                variations: [
+                ],
+            ),
+        },
+        image_templates: {
+            ((1), 23): (
+                data: "externals/1",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 39): (
+                data: "externals/46",
+                descriptor: (
+                    format: BGRA8,
+                    size: (141, 96),
+                    stride: Some(564),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 41): (
+                data: "externals/2",
+                descriptor: (
+                    format: BGRA8,
+                    size: (32, 32),
+                    stride: Some(128),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 15): (
+                data: "externals/3",
+                descriptor: (
+                    format: BGRA8,
+                    size: (20, 20),
+                    stride: Some(80),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 1): (
+                data: "externals/4",
+                descriptor: (
+                    format: BGRA8,
+                    size: (24, 24),
+                    stride: Some(96),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 51): (
+                data: "externals/5",
+                descriptor: (
+                    format: BGRA8,
+                    size: (468, 20),
+                    stride: Some(1872),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 13): (
+                data: "externals/6",
+                descriptor: (
+                    format: BGRA8,
+                    size: (12, 12),
+                    stride: Some(48),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 39): (
+                data: "externals/7",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 1087): (
+                data: "externals/47",
+                descriptor: (
+                    format: BGRA8,
+                    size: (3, 15),
+                    stride: Some(12),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 18): (
+                data: "externals/8",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 40): (
+                data: "externals/48",
+                descriptor: (
+                    format: BGRA8,
+                    size: (96, 96),
+                    stride: Some(384),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 6): (
+                data: "externals/9",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 134): (
+                data: "externals/49",
+                descriptor: (
+                    format: BGRA8,
+                    size: (31, 33),
+                    stride: Some(124),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (28),
+            ),
+            ((1), 201): (
+                data: "blobs/3.raw",
+                descriptor: (
+                    format: BGRA8,
+                    size: (29, 24),
+                    stride: None,
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: Some(256),
+                generation: (0),
+            ),
+            ((1), 10): (
+                data: "externals/10",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 10): (
+                data: "externals/11",
+                descriptor: (
+                    format: BGRA8,
+                    size: (26, 26),
+                    stride: Some(104),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 190): (
+                data: "externals/50",
+                descriptor: (
+                    format: BGRA8,
+                    size: (480, 16),
+                    stride: Some(1920),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 36): (
+                data: "externals/51",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 1,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 34): (
+                data: "externals/12",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 24): (
+                data: "externals/52",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 33): (
+                data: "externals/53",
+                descriptor: (
+                    format: BGRA8,
+                    size: (141, 96),
+                    stride: Some(564),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 19): (
+                data: "externals/54",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 25): (
+                data: "externals/13",
+                descriptor: (
+                    format: BGRA8,
+                    size: (20, 20),
+                    stride: Some(80),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 1): (
+                data: "externals/55",
+                descriptor: (
+                    format: BGRA8,
+                    size: (104, 28),
+                    stride: Some(416),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 135): (
+                data: "externals/14",
+                descriptor: (
+                    format: BGRA8,
+                    size: (34, 33),
+                    stride: Some(136),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (28),
+            ),
+            ((1), 7): (
+                data: "externals/56",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 63): (
+                data: "externals/57",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 37): (
+                data: "externals/15",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 17): (
+                data: "externals/58",
+                descriptor: (
+                    format: BGRA8,
+                    size: (96, 96),
+                    stride: Some(384),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 35): (
+                data: "externals/59",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 27): (
+                data: "externals/16",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 102): (
+                data: "externals/60",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 32): (
+                data: "externals/18",
+                descriptor: (
+                    format: BGRA8,
+                    size: (96, 96),
+                    stride: Some(384),
+                    offset: 0,
+                    flags: (
+                        bits: 1,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 16): (
+                data: "externals/17",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 6): (
+                data: "images/1.raw",
+                descriptor: (
+                    format: BGRA8,
+                    size: (48, 5),
+                    stride: Some(192),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 44): (
+                data: "externals/19",
+                descriptor: (
+                    format: BGRA8,
+                    size: (141, 96),
+                    stride: Some(564),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 30): (
+                data: "externals/61",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 130): (
+                data: "externals/20",
+                descriptor: (
+                    format: BGRA8,
+                    size: (1920, 33),
+                    stride: Some(7680),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (28),
+            ),
+            ((1), 2): (
+                data: "externals/62",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 8): (
+                data: "externals/21",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 258): (
+                data: "blobs/4.raw",
+                descriptor: (
+                    format: R8,
+                    size: (167, 20),
+                    stride: None,
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 136): (
+                data: "externals/63",
+                descriptor: (
+                    format: BGRA8,
+                    size: (31, 33),
+                    stride: Some(124),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (28),
+            ),
+            ((6), 4): (
+                data: "externals/22",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 60): (
+                data: "externals/23",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 207): (
+                data: "externals/64",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 54): (
+                data: "externals/65",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 16): (
+                data: "externals/24",
+                descriptor: (
+                    format: BGRA8,
+                    size: (32, 32),
+                    stride: Some(128),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 32): (
+                data: "externals/25",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 103): (
+                data: "externals/26",
+                descriptor: (
+                    format: BGRA8,
+                    size: (6, 6),
+                    stride: Some(24),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 28): (
+                data: "externals/27",
+                descriptor: (
+                    format: BGRA8,
+                    size: (42, 42),
+                    stride: Some(168),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 35): (
+                data: "externals/66",
+                descriptor: (
+                    format: BGRA8,
+                    size: (224, 224),
+                    stride: Some(896),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 9): (
+                data: "externals/28",
+                descriptor: (
+                    format: BGRA8,
+                    size: (7, 4),
+                    stride: Some(28),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 37): (
+                data: "externals/29",
+                descriptor: (
+                    format: BGRA8,
+                    size: (224, 152),
+                    stride: Some(896),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 31): (
+                data: "externals/30",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 17): (
+                data: "externals/67",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 133): (
+                data: "externals/31",
+                descriptor: (
+                    format: BGRA8,
+                    size: (99, 33),
+                    stride: Some(396),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (28),
+            ),
+            ((5), 1053): (
+                data: "blobs/1.raw",
+                descriptor: (
+                    format: BGRA8,
+                    size: (108, 25),
+                    stride: None,
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: Some(256),
+                generation: (0),
+            ),
+            ((1), 3): (
+                data: "externals/32",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 259): (
+                data: "blobs/2.raw",
+                descriptor: (
+                    format: R8,
+                    size: (167, 20),
+                    stride: None,
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 596): (
+                data: "externals/33",
+                descriptor: (
+                    format: BGRA8,
+                    size: (12, 835),
+                    stride: Some(48),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (270),
+            ),
+            ((1), 210): (
+                data: "externals/68",
+                descriptor: (
+                    format: BGRA8,
+                    size: (445, 445),
+                    stride: Some(1780),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 55): (
+                data: "externals/34",
+                descriptor: (
+                    format: BGRA8,
+                    size: (468, 20),
+                    stride: Some(1872),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 159): (
+                data: "externals/69",
+                descriptor: (
+                    format: BGRA8,
+                    size: (13, 13),
+                    stride: Some(52),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 189): (
+                data: "externals/35",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 27): (
+                data: "externals/70",
+                descriptor: (
+                    format: BGRA8,
+                    size: (32, 32),
+                    stride: Some(128),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 59): (
+                data: "externals/36",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 9): (
+                data: "externals/71",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 202): (
+                data: "externals/72",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 1071): (
+                data: "externals/73",
+                descriptor: (
+                    format: BGRA8,
+                    size: (12, 176),
+                    stride: Some(48),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 7): (
+                data: "externals/74",
+                descriptor: (
+                    format: BGRA8,
+                    size: (12, 12),
+                    stride: Some(48),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 33): (
+                data: "externals/75",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 34): (
+                data: "externals/38",
+                descriptor: (
+                    format: BGRA8,
+                    size: (96, 96),
+                    stride: Some(384),
+                    offset: 0,
+                    flags: (
+                        bits: 1,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 22): (
+                data: "externals/37",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 211): (
+                data: "externals/39",
+                descriptor: (
+                    format: BGRA8,
+                    size: (20, 20),
+                    stride: Some(80),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 100): (
+                data: "externals/76",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 46): (
+                data: "externals/40",
+                descriptor: (
+                    format: BGRA8,
+                    size: (224, 118),
+                    stride: Some(896),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 31): (
+                data: "externals/77",
+                descriptor: (
+                    format: BGRA8,
+                    size: (96, 96),
+                    stride: Some(384),
+                    offset: 0,
+                    flags: (
+                        bits: 1,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 36): (
+                data: "externals/78",
+                descriptor: (
+                    format: BGRA8,
+                    size: (224, 224),
+                    stride: Some(896),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((5), 595): (
+                data: "externals/41",
+                descriptor: (
+                    format: BGRA8,
+                    size: (12, 835),
+                    stride: Some(48),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (17),
+            ),
+            ((1), 50): (
+                data: "externals/42",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 101): (
+                data: "externals/43",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((1), 38): (
+                data: "externals/44",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 20): (
+                data: "externals/79",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+            ((6), 30): (
+                data: "externals/45",
+                descriptor: (
+                    format: BGRA8,
+                    size: (16, 16),
+                    stride: Some(64),
+                    offset: 0,
+                    flags: (
+                        bits: 0,
+                    ),
+                ),
+                tiling: None,
+                generation: (0),
+            ),
+        },
+    ),
+)

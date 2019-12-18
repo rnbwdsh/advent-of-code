@@ -1,0 +1,12 @@
+(
+    pending_retained_tiles: (
+    ),
+    globals: (
+        default_image_handle: (
+            location: Some((
+                block_index: (256),
+                epoch: (82),
+            )),
+        ),
+    ),
+)

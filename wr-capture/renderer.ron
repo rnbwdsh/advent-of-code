@@ -1,0 +1,1421 @@
+(
+    device_size: Some((1920, 1050)),
+    gpu_cache: (
+        data: "textures/gpu.raw",
+        size: ((1024, 30), 1),
+        format: RGBAF32,
+        filter: Nearest,
+        has_depth: false,
+    ),
+    gpu_cache_frame_id: (21433),
+    textures: {
+        (3): (
+            data: "textures/cache-9.raw",
+            size: ((16, 512), 5),
+            format: RGBA8,
+            filter: Nearest,
+            has_depth: true,
+        ),
+        (84): (
+            data: "textures/cache-3.raw",
+            size: ((512, 512), 8),
+            format: RGBA8,
+            filter: Linear,
+            has_depth: false,
+        ),
+        (1): (
+            data: "textures/cache-4.raw",
+            size: ((1024, 512), 21),
+            format: RGBA8,
+            filter: Nearest,
+            has_depth: true,
+        ),
+        (85): (
+            data: "textures/cache-5.raw",
+            size: ((512, 512), 4),
+            format: R8,
+            filter: Linear,
+            has_depth: false,
+        ),
+        (2): (
+            data: "textures/cache-6.raw",
+            size: ((512, 16), 1),
+            format: RGBA8,
+            filter: Nearest,
+            has_depth: true,
+        ),
+        (82): (
+            data: "textures/cache-7.raw",
+            size: ((12, 835), 1),
+            format: BGRA8,
+            filter: Linear,
+            has_depth: false,
+        ),
+        (73): (
+            data: "textures/cache-8.raw",
+            size: ((1920, 33), 1),
+            format: BGRA8,
+            filter: Linear,
+            has_depth: false,
+        ),
+        (86): (
+            data: "textures/cache-1.raw",
+            size: ((512, 512), 1),
+            format: RGBA8,
+            filter: Nearest,
+            has_depth: false,
+        ),
+        (83): (
+            data: "textures/cache-2.raw",
+            size: ((12, 835), 1),
+            format: BGRA8,
+            filter: Linear,
+            has_depth: false,
+        ),
+    },
+    external_images: [
+        (
+            short_path: "externals/1",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934608),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [0]
+        (
+            short_path: "externals/2",
+            descriptor: (
+                format: BGRA8,
+                size: (32, 32),
+                stride: Some(128),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607611),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [1]
+        (
+            short_path: "externals/3",
+            descriptor: (
+                format: BGRA8,
+                size: (20, 20),
+                stride: Some(80),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934600),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [2]
+        (
+            short_path: "externals/4",
+            descriptor: (
+                format: BGRA8,
+                size: (24, 24),
+                stride: Some(96),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607560),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [3]
+        (
+            short_path: "externals/5",
+            descriptor: (
+                format: BGRA8,
+                size: (468, 20),
+                stride: Some(1872),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934628),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [4]
+        (
+            short_path: "externals/6",
+            descriptor: (
+                format: BGRA8,
+                size: (12, 12),
+                stride: Some(48),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607597),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [5]
+        (
+            short_path: "externals/7",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934622),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [6]
+        (
+            short_path: "externals/8",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934603),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [7]
+        (
+            short_path: "externals/9",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934595),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [8]
+        (
+            short_path: "externals/10",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934599),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [9]
+        (
+            short_path: "externals/11",
+            descriptor: (
+                format: BGRA8,
+                size: (26, 26),
+                stride: Some(104),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607596),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [10]
+        (
+            short_path: "externals/12",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934617),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [11]
+        (
+            short_path: "externals/13",
+            descriptor: (
+                format: BGRA8,
+                size: (20, 20),
+                stride: Some(80),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934610),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [12]
+        (
+            short_path: "externals/14",
+            descriptor: (
+                format: BGRA8,
+                size: (34, 33),
+                stride: Some(136),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (17179869222),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [13]
+        (
+            short_path: "externals/15",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934620),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [14]
+        (
+            short_path: "externals/16",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607585),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [15]
+        (
+            short_path: "externals/17",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934601),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [16]
+        (
+            short_path: "externals/18",
+            descriptor: (
+                format: BGRA8,
+                size: (96, 96),
+                stride: Some(384),
+                offset: 0,
+                flags: (
+                    bits: 1,
+                ),
+            ),
+            external: (
+                id: (51539607602),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [17]
+        (
+            short_path: "externals/19",
+            descriptor: (
+                format: BGRA8,
+                size: (141, 96),
+                stride: Some(564),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607614),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [18]
+        (
+            short_path: "externals/20",
+            descriptor: (
+                format: BGRA8,
+                size: (1920, 33),
+                stride: Some(7680),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (17179869219),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [19]
+        (
+            short_path: "externals/21",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934597),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [20]
+        (
+            short_path: "externals/22",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607594),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [21]
+        (
+            short_path: "externals/23",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934635),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [22]
+        (
+            short_path: "externals/24",
+            descriptor: (
+                format: BGRA8,
+                size: (32, 32),
+                stride: Some(128),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607553),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [23]
+        (
+            short_path: "externals/25",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934615),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [24]
+        (
+            short_path: "externals/26",
+            descriptor: (
+                format: BGRA8,
+                size: (6, 6),
+                stride: Some(24),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934650),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [25]
+        (
+            short_path: "externals/27",
+            descriptor: (
+                format: BGRA8,
+                size: (42, 42),
+                stride: Some(168),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607583),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [26]
+        (
+            short_path: "externals/28",
+            descriptor: (
+                format: BGRA8,
+                size: (7, 4),
+                stride: Some(28),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (64424509442),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [27]
+        (
+            short_path: "externals/29",
+            descriptor: (
+                format: BGRA8,
+                size: (224, 152),
+                stride: Some(896),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607607),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [28]
+        (
+            short_path: "externals/30",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934614),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [29]
+        (
+            short_path: "externals/31",
+            descriptor: (
+                format: BGRA8,
+                size: (99, 33),
+                stride: Some(396),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (17179869220),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [30]
+        (
+            short_path: "externals/32",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934594),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [31]
+        (
+            short_path: "externals/33",
+            descriptor: (
+                format: BGRA8,
+                size: (12, 835),
+                stride: Some(48),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (68719477497),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [32]
+        (
+            short_path: "externals/34",
+            descriptor: (
+                format: BGRA8,
+                size: (468, 20),
+                stride: Some(1872),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934633),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [33]
+        (
+            short_path: "externals/35",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934677),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [34]
+        (
+            short_path: "externals/36",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934634),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [35]
+        (
+            short_path: "externals/37",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934607),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [36]
+        (
+            short_path: "externals/38",
+            descriptor: (
+                format: BGRA8,
+                size: (96, 96),
+                stride: Some(384),
+                offset: 0,
+                flags: (
+                    bits: 1,
+                ),
+            ),
+            external: (
+                id: (51539607604),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [37]
+        (
+            short_path: "externals/39",
+            descriptor: (
+                format: BGRA8,
+                size: (20, 20),
+                stride: Some(80),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934688),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [38]
+        (
+            short_path: "externals/40",
+            descriptor: (
+                format: BGRA8,
+                size: (224, 118),
+                stride: Some(896),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607616),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [39]
+        (
+            short_path: "externals/41",
+            descriptor: (
+                format: BGRA8,
+                size: (12, 835),
+                stride: Some(48),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (68719477458),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [40]
+        (
+            short_path: "externals/42",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934627),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [41]
+        (
+            short_path: "externals/43",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934648),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [42]
+        (
+            short_path: "externals/44",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934621),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [43]
+        (
+            short_path: "externals/45",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607600),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [44]
+        (
+            short_path: "externals/46",
+            descriptor: (
+                format: BGRA8,
+                size: (141, 96),
+                stride: Some(564),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607609),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [45]
+        (
+            short_path: "externals/47",
+            descriptor: (
+                format: BGRA8,
+                size: (3, 15),
+                stride: Some(12),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (68719477970),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [46]
+        (
+            short_path: "externals/48",
+            descriptor: (
+                format: BGRA8,
+                size: (96, 96),
+                stride: Some(384),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607610),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [47]
+        (
+            short_path: "externals/49",
+            descriptor: (
+                format: BGRA8,
+                size: (31, 33),
+                stride: Some(124),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (17179869221),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [48]
+        (
+            short_path: "externals/50",
+            descriptor: (
+                format: BGRA8,
+                size: (480, 16),
+                stride: Some(1920),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934678),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [49]
+        (
+            short_path: "externals/51",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 1,
+                ),
+            ),
+            external: (
+                id: (8589934619),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [50]
+        (
+            short_path: "externals/52",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607599),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [51]
+        (
+            short_path: "externals/53",
+            descriptor: (
+                format: BGRA8,
+                size: (141, 96),
+                stride: Some(564),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607603),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [52]
+        (
+            short_path: "externals/54",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934604),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [53]
+        (
+            short_path: "externals/55",
+            descriptor: (
+                format: BGRA8,
+                size: (104, 28),
+                stride: Some(416),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (64424509441),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [54]
+        (
+            short_path: "externals/56",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934596),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [55]
+        (
+            short_path: "externals/57",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934638),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [56]
+        (
+            short_path: "externals/58",
+            descriptor: (
+                format: BGRA8,
+                size: (96, 96),
+                stride: Some(384),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607567),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [57]
+        (
+            short_path: "externals/59",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934618),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [58]
+        (
+            short_path: "externals/60",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934649),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [59]
+        (
+            short_path: "externals/61",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934613),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [60]
+        (
+            short_path: "externals/62",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934593),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [61]
+        (
+            short_path: "externals/63",
+            descriptor: (
+                format: BGRA8,
+                size: (31, 33),
+                stride: Some(124),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (17179869223),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [62]
+        (
+            short_path: "externals/64",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934684),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [63]
+        (
+            short_path: "externals/65",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934632),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [64]
+        (
+            short_path: "externals/66",
+            descriptor: (
+                format: BGRA8,
+                size: (224, 224),
+                stride: Some(896),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607605),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [65]
+        (
+            short_path: "externals/67",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934602),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [66]
+        (
+            short_path: "externals/68",
+            descriptor: (
+                format: BGRA8,
+                size: (445, 445),
+                stride: Some(1780),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934687),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [67]
+        (
+            short_path: "externals/69",
+            descriptor: (
+                format: BGRA8,
+                size: (13, 13),
+                stride: Some(52),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934657),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [68]
+        (
+            short_path: "externals/70",
+            descriptor: (
+                format: BGRA8,
+                size: (32, 32),
+                stride: Some(128),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (64424509446),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [69]
+        (
+            short_path: "externals/71",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934598),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [70]
+        (
+            short_path: "externals/72",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934680),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [71]
+        (
+            short_path: "externals/73",
+            descriptor: (
+                format: BGRA8,
+                size: (12, 176),
+                stride: Some(48),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (68719477954),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [72]
+        (
+            short_path: "externals/74",
+            descriptor: (
+                format: BGRA8,
+                size: (12, 12),
+                stride: Some(48),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607595),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [73]
+        (
+            short_path: "externals/75",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934616),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [74]
+        (
+            short_path: "externals/76",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (8589934647),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [75]
+        (
+            short_path: "externals/77",
+            descriptor: (
+                format: BGRA8,
+                size: (96, 96),
+                stride: Some(384),
+                offset: 0,
+                flags: (
+                    bits: 1,
+                ),
+            ),
+            external: (
+                id: (51539607601),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [76]
+        (
+            short_path: "externals/78",
+            descriptor: (
+                format: BGRA8,
+                size: (224, 224),
+                stride: Some(896),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607606),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [77]
+        (
+            short_path: "externals/79",
+            descriptor: (
+                format: BGRA8,
+                size: (16, 16),
+                stride: Some(64),
+                offset: 0,
+                flags: (
+                    bits: 0,
+                ),
+            ),
+            external: (
+                id: (51539607598),
+                channel_index: 0,
+                image_type: Buffer,
+            ),
+        ),// [78]
+    ],
+)

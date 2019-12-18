@@ -1,0 +1,12 @@
+(
+    data: "externals/d40.raw",
+    external: (
+        id: (51539607616),
+        channel_index: 0,
+        image_type: Buffer,
+    ),
+    uv: (
+        uv0: (0, 0),
+        uv1: (0, 0),
+    ),
+)
