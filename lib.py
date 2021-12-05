@@ -2,15 +2,6 @@ from typing import Tuple
 from aocd import submit, get_data
 from functools import partial
 
-def imag2tup(i: complex) -> tuple:  # 1+2j -> (1, 2)
-    return (int(i.real), int(i.imag))
-
-def tup2imag(t: tuple) -> complex:
-    return t[0] + t[1] * 1j
-
-def bin2dec(x):
-    return int("".join(map(str, x)), 2)
-
 def level_ab(day: int, test: Tuple = None, methods=(0,1), quiet=False, print_res=True, sep="\n"):
     def solver(solve):
         for method in methods:
