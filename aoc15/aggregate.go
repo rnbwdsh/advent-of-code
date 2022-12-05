@@ -1,6 +1,5 @@
 package aoc15
 
-// ignore unused
 func MinOf(vars ...int) int {
 	if len(vars) == 0 {
 		return -1
