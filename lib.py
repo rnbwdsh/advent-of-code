@@ -12,6 +12,8 @@ import matplotlib.pyplot as plt
 from typing import Tuple, List, Dict, Set, Callable, Optional, Union, Any, Iterable, Iterator, TypeVar, Generic, Type
 from copy import deepcopy
 from collections import Counter, defaultdict
+
+import z3
 from more_itertools import windowed
 from scipy.signal import convolve2d
 
