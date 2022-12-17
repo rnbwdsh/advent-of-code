@@ -197,16 +197,24 @@ func levelB(toVisit SetS) int {
 
 	// results channel for goroutines
 	var best = 0
+	var wg sync.WaitGroup
 	for is0, s0 := range solutions {
-		for _, s1 := range solutions[is0+1:] {
-			if (s0.score+s1.score) >= best && // this optimization gives a 10x speedup
-				isDisjoint(s0.visited, s1.visited) {
-				score := s0.score + s1.score
-				if score > best {
-					best = score
-				}
+		wg.Add(1)
+		go inner(solutions, is0, s0, &best, &wg)
+	}
+	wg.Wait()
+	return best
+}
+
+func inner(solutions []Result, is0 int, s0 Result, best *int, wg *sync.WaitGroup) { // run a thread for each line
+	for _, s1 := range solutions[is0+1:] {
+		if (s0.score+s1.score) >= *best && // this optimization gives a 10x speedup
+			isDisjoint(s0.visited, s1.visited) {
+			score := s0.score + s1.score
+			if score > *best {
+				*best = score
 			}
 		}
 	}
-	return best
+	wg.Done()
 }
