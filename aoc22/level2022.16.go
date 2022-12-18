@@ -18,14 +18,14 @@ var reward = make(MapSI)
 
 type State struct {
 	start   string
-	toVisit SetS
+	toVisit MapSI
 	time    int
 	score   int
 }
 
 type Result struct {
 	score   int
-	visited SetS
+	visited MapSI
 }
 
 func (r Result) string() string { // for hashing, to eliminate duplicates
@@ -37,32 +37,24 @@ func (r Result) string() string { // for hashing, to eliminate duplicates
 	return strings.Join(keys, ",")
 }
 
-func setDifference[K comparable](a map[K]int, b map[K]struct{}) map[K]struct{} { // set a without b
-	result := make(map[K]struct{})
+func setDifference[K comparable, V any](a map[K]int, b map[K]V) map[K]V { // set a without b
+	result := make(map[K]V)
 	for key := range a {
-		if _, ok := b[key]; !ok {
-			result[key] = struct{}{}
+		if v, ok := b[key]; !ok {
+			result[key] = v
 		}
 	}
 	return result
 }
 
-func copyWithout[K comparable](ss map[K]struct{}, without K) map[K]struct{} { // copy a set without a key
-	var toVisitCopy = make(map[K]struct{})
+func copyWithout[K comparable, V any](ss map[K]V, without K) map[K]V { // copy a set without a key
+	var toVisitCopy = make(map[K]V)
 	for k, v := range ss {
 		if k != without {
 			toVisitCopy[k] = v
 		}
 	}
 	return toVisitCopy
-}
-
-func keys[K comparable, V any](m map[K]V) map[K]struct{} { // keys of map as set
-	toVisit := make(map[K]struct{})
-	for k := range m {
-		toVisit[k] = struct{}{}
-	}
-	return toVisit
 }
 
 func values[V any](mr map[string]V) []V { // values of a map
@@ -104,7 +96,7 @@ func worker(s State, results chan<- Result, wg *sync.WaitGroup) { // runner for 
 	wg.Done()
 }
 
-func walksShorterThan(toVisit SetS, size int) chan Result {
+func walksShorterThan(toVisit MapSI, size int) chan Result {
 	results := make(chan Result, 1_000_000)
 	// Run parallel goroutines for recursive solution finding, using waitgroups to wait for end
 	var wg sync.WaitGroup
@@ -168,13 +160,13 @@ func main() {
 	for _, file := range []string{"aoc22/level2022.16.example", "aoc22/level2022.16"} {
 		var data, _ = os.ReadFile(file)
 		cost, reward = parse(string(data))
-		println(levelA(keys(reward)))
-		println(levelB(keys(reward)))
+		println(levelA(reward))
+		println(levelB(reward))
 	}
 
 }
 
-func levelA(toVisit SetS) int {
+func levelA(toVisit MapSI) int {
 	results := walksShorterThan(toVisit, 30)
 	var best = 0
 	for r := range results {
@@ -185,7 +177,7 @@ func levelA(toVisit SetS) int {
 	return best
 }
 
-func levelB(toVisit SetS) int {
+func levelB(toVisit MapSI) int {
 	results := walksShorterThan(toVisit, 26)
 
 	// get unique by toStringing them
@@ -193,6 +185,7 @@ func levelB(toVisit SetS) int {
 	for r := range results {
 		uniqueSolutions[r.string()] = r
 	}
+	// get values via reflection
 	var solutions = values(uniqueSolutions)
 
 	// results channel for goroutines

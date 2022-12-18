@@ -49,7 +49,7 @@ level_a = partial(level_ab, levels=(0,))
 level_b = partial(level_ab, levels=(1,))
 
 
-@level_ab(18, test=("""
+@level_ab(19, test=("""
 """, 1, 2), sep="\n")
 def solve(lines: List[str], level=0):
     return None
