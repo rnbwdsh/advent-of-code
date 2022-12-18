@@ -10,7 +10,6 @@ import (
 
 type MapSI map[string]int
 type MapSSI map[string]MapSI
-type SetS map[string]struct{}
 
 // global, read only, to avoid passing around as parameters
 var cost = make(MapSSI)
