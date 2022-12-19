@@ -3,10 +3,12 @@ import itertools
 import json
 import math
 import re
+import sys
 from collections import Counter, defaultdict
-from copy import deepcopy
+from copy import deepcopy, copy
 from dataclasses import dataclass
 from functools import partial
+from multiprocessing import Pool
 from typing import Tuple, List, Dict, Set, Callable, Optional, Union, Any, Iterable, Iterator, TypeVar, Generic, Type, \
     Generator
 
@@ -21,17 +23,18 @@ from frozendict import frozendict
 from more_itertools import windowed
 from numpy import array
 from scipy.signal import convolve2d
+from tqdm.auto import tqdm
 
 # to remove unused import warnings
-_ = itertools, re, json, functools, math, numba, np, pd, nx, plt, Tuple, List, Dict, Set, Callable, Optional, Union, Any, Iterable, Iterator, TypeVar, Generic, Type, Generator, deepcopy, Counter, defaultdict, z3, frozendict, windowed, convolve2d, dataclass  # noqa
+_ = sys, itertools, re, json, functools, math, numba, np, pd, nx, plt, Tuple, List, Dict, Set, Callable, Optional, Union, Any, Iterable, Iterator, TypeVar, Generic, Type, Generator, deepcopy, Counter, defaultdict, z3, frozendict, windowed, convolve2d, dataclass, tqdm, copy, Pool  # noqa
 
 
 def level_ab(day: int, test: Tuple = None, levels=(0, 1), quiet=False, sep="\n", apply=lambda a: a):
+    def parse(dd):
+        return array([apply(d) for d in dd.split(sep)])
+
     def inner(solver):
         for level in levels:
-            def parse(dd):
-                array([apply(d) for d in dd.split(sep)])
-
             # solve with testdata
             if test and (actual := test[1 + level]) is not None:
                 result = solver(parse(test[0]), level)
@@ -48,9 +51,3 @@ def level_ab(day: int, test: Tuple = None, levels=(0, 1), quiet=False, sep="\n",
 
 level_a = partial(level_ab, levels=(0,))
 level_b = partial(level_ab, levels=(1,))
-
-
-@level_ab(19, test=("""
-""", 1, 2), sep="\n")
-def solve(lines: List[str], level=0):
-    return lines.append(str(level))
