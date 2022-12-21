@@ -2,7 +2,6 @@ import functools
 import itertools
 import json
 import math
-import operator
 import re
 import sys
 from collections import Counter, defaultdict
@@ -19,6 +18,7 @@ import numba
 import numpy as np
 import pandas as pd
 import z3
+from operator import add, sub, mul
 from aocd import submit, get_data
 from frozendict import frozendict
 from more_itertools import windowed
@@ -26,11 +26,10 @@ from numpy import array
 from scipy.signal import convolve2d
 from tqdm.auto import tqdm
 
-
 # noqa  # to remove unused import warnings
 _ = sys, itertools, re, json, functools, math, numba, np, pd, nx, plt, Tuple, List, Dict, Set, Callable, Optional, \
     Union, Any, Iterable, Iterator, TypeVar, Generic, Type, Generator, deepcopy, Counter, defaultdict, z3, frozendict, \
-    windowed, convolve2d, dataclass, tqdm, copy, Pool, operator
+    windowed, convolve2d, dataclass, tqdm, copy, Pool, add, sub, mul
 
 
 def level_ab(day: int, test: Tuple = None, levels=(0, 1), quiet=False, sep="\n", apply=lambda a: a):
@@ -57,6 +56,6 @@ level_a = partial(level_ab, levels=(0,))
 level_b = partial(level_ab, levels=(1,))
 
 
-# @level_ab(20, test=("""ab""", 33, 3472), sep="\n")
-def solve(lines: List[str], level=0):
-    return lines, level
+@level_ab(20, test=("1122", 3, 4), levels=(0, 1), sep="\n")
+def solve(data, level):
+    return data, level
