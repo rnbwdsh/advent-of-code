@@ -56,6 +56,6 @@ level_a = partial(level_ab, levels=(0,))
 level_b = partial(level_ab, levels=(1,))
 
 
-@level_ab(20, test=("1122", 3, 4), levels=(0, 1), sep="\n")
+@level_ab(24, test=("1122", 3, 4), levels=(0, 1), sep="\n")
 def solve(data, level):
     return data, level
