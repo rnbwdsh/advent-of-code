@@ -14,7 +14,6 @@ from typing import Tuple, List, Dict, Set, Callable, Optional, Union, Any, Itera
 
 import matplotlib.pyplot as plt
 import networkx as nx
-import numba
 import numpy as np
 import pandas as pd
 import z3
@@ -27,9 +26,9 @@ from scipy.signal import convolve2d
 from tqdm.auto import tqdm
 
 # noqa  # to remove unused import warnings
-_ = sys, itertools, re, json, functools, math, numba, np, pd, nx, plt, Tuple, List, Dict, Set, Callable, Optional, \
+_ = sys, itertools, re, json, functools, math, np, pd, nx, plt, Tuple, List, Dict, Set, Callable, Optional, \
     Union, Any, Iterable, Iterator, TypeVar, Generic, Type, Generator, deepcopy, Counter, defaultdict, z3, frozendict, \
-    windowed, convolve2d, dataclass, tqdm, copy, Pool, add, sub, mul, NamedTuple
+    windowed, convolve2d, dataclass, tqdm, copy, Pool, add, sub, mul, NamedTuple  # numba
 
 
 def level_ab(day: int, test: Tuple = None, levels=(0, 1), quiet=False, sep="\n", apply=lambda a: a):
@@ -54,11 +53,3 @@ def level_ab(day: int, test: Tuple = None, levels=(0, 1), quiet=False, sep="\n",
 
 level_a = partial(level_ab, levels=(0,))
 level_b = partial(level_ab, levels=(1,))
-
-
-"""
-@level_ab(24, test=("1122", 3, 4), levels=(0, 1), sep="\n")
-def solve(data, level):
-    return data, level
-"""
-
