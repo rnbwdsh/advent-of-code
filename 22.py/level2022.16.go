@@ -156,7 +156,7 @@ func addAnyToAnyDistance(graph MapSSI) MapSSI {
 }
 
 func main() {
-	for _, file := range []string{"aoc22/level2022.16.example", "aoc22/level2022.16"} {
+	for _, file := range []string{"22.py/level2022.16.example", "22.py/level2022.16"} {
 		var data, _ = os.ReadFile(file)
 		cost, reward = parse(string(data))
 		println(levelA(reward))
